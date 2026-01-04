@@ -37,4 +37,4 @@ jobs:
       - name: Simulate Deployment
         run: |
           mkdir deploy
-	  Copy-Item -Path Matematicas\bin\Release\net8.0\* -Destination deploy -Recurse -Force
+	        Copy-Item -Path Matematicas\bin\Release\net8.0\* -Destination deploy -Recurse -Force
