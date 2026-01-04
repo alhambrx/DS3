@@ -30,3 +30,6 @@ jobs:
 
       - name: Run Tests
         run: dotnet test DS3.sln --verbosity normal
+
+      - name: Run Code Analysis
+        run: dotnet format --check
