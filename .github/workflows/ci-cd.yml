@@ -32,7 +32,7 @@ jobs:
         run: dotnet test DS3.sln --verbosity normal
 
       - name: Run Code Analysis
-        run: dotnet format --check
+        run: dotnet format DS3.sln --verify-no-changes
 
       - name: Simulate Deployment
         run: |
